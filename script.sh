@@ -17,6 +17,8 @@ code --install-extension eamodio.gitlens
 # brew install --cask microsoft-azure-storage-explorer
 # brew install --cask azure-data-studio
 # brew install azure-cli
+# brew install git-credential-manager
+
 # brew install --cask powershell
 # brew install node
 # brew install angular-cli

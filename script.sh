@@ -1,5 +1,7 @@
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # brew upgrade
+# brew tap homebrew/cask-versions
+
 # brew install --cask postman
 # brew install --cask dotnet-sdk
 # brew install --cask visual-studio
@@ -12,7 +14,7 @@ code --install-extension ms-azure-devops.azure-pipelines
 code --install-extension VisualStudioOnlineApplicationInsights.application-insights
 code --install-extension ms-azuretools.vscode-bicep
 code --install-extension eamodio.gitlens
-
+code --install-extension ms-dotnettools.csharp
 
 # brew install --cask microsoft-azure-storage-explorer
 # brew install --cask azure-data-studio
@@ -37,3 +39,22 @@ code --install-extension eamodio.gitlens
 
 brew install jandedobbeleer/oh-my-posh/oh-my-posh
 brew install --cask iterm2
+
+## XCode For iOS Development ##################
+
+## Install Mas (command-line interface for Mac App Store)
+#brew install mas
+
+## Search for Xcode showing only the first 5 results
+#mas search xcode | head -5
+
+## Install Xcode using App ID
+#mas install 497799835 # The appid for Xcode shown when doing search
+
+## Reset the development directory path to put to Xcode /Applications/Xcode.app/Contents/Developer
+#sudo xcode-select -r  
+
+#sudo xcodebuild -license
+
+## Update all Apple software and auto agree to any licenses and restart if necessary
+#sudo softwareupdate --install --agree-to-license -aR

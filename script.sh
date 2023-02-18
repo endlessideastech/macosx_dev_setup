@@ -40,6 +40,8 @@ code --install-extension ms-dotnettools.csharp
 brew install jandedobbeleer/oh-my-posh/oh-my-posh
 brew install --cask iterm2
 
+#brew install docker
+
 ## XCode For iOS Development ##################
 
 ## Install Mas (command-line interface for Mac App Store)

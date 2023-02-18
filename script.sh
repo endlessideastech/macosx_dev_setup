@@ -26,8 +26,12 @@ code --install-extension eamodio.gitlens
 # brew install --cask google-chrome
 # brew install --cask microsoft-remote-desktop
 # brew install --cask microsoft-office
+
+# Business Tools
 # brew install --cask skype
 # brew install --cask slack
+# brew install --cask microsoft-teams
+
 # brew install --cask whatsapp
 # brew install --cask zoom
 

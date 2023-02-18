@@ -60,3 +60,6 @@ brew install --cask iterm2
 
 ## Update all Apple software and auto agree to any licenses and restart if necessary
 #sudo softwareupdate --install --agree-to-license -aR
+
+## Adobe Creative Cloud
+brew install --cask adobe-creative-cloud

@@ -15,6 +15,7 @@ code --install-extension VisualStudioOnlineApplicationInsights.application-insig
 code --install-extension ms-azuretools.vscode-bicep
 code --install-extension eamodio.gitlens
 code --install-extension ms-dotnettools.csharp
+code --install-extension ritwickdey.LiveServer
 
 # brew install --cask microsoft-azure-storage-explorer
 # brew install --cask azure-data-studio

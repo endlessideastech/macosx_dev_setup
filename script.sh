@@ -69,3 +69,6 @@ brew install --cask iterm2
 
 ## Adobe Creative Cloud
 brew install --cask adobe-creative-cloud
+
+# Android Studio
+# brew install --cask android-studio

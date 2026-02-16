@@ -46,7 +46,8 @@ brew install --cask font-meslo-lg-nerd-font
 brew install jandedobbeleer/oh-my-posh/oh-my-posh
 brew install --cask iterm2
 
-#brew install docker
+# brew install docker
+# brew install --cask docker-desktop
 
 ## XCode For iOS Development ##################
 

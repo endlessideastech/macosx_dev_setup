@@ -33,7 +33,6 @@ code --install-extension formulahendry.auto-rename-tag
 # brew install --cask microsoft-office
 
 # Terminal Tools
-brew tap homebrew/cask-fonts
 brew install --cask font-meslo-lg-nerd-font
 
 # Business Tools

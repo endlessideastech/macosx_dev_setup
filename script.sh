@@ -73,3 +73,5 @@ brew install --cask adobe-creative-cloud
 
 # Android Studio
 # brew install --cask android-studio
+
+# brew install --cask flutter

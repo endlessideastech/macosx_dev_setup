@@ -1,13 +1,30 @@
-# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-# brew upgrade
-# brew tap homebrew/cask-versions
+#!/bin/bash
 
-# brew install --cask postman
-# brew install --cask dotnet-sdk
+# =============================================
+# macOS Development Environment Setup
+# =============================================
 
-# brew install --cask visual-studio-code
-# code --install-extension esbenp.prettier-vscode
+# ==================== Homebrew Install & Update ====================
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew upgrade
 
+
+# ==================== Core Development Tools ====================
+brew install --cask visual-studio-code
+brew install --cask cursor
+brew install --cask postman
+brew install --cask dotnet-sdk
+brew install azure-cli
+brew install git-credential-manager
+brew install --cask powershell
+brew install node@24
+brew install angular-cli
+# brew install docker
+# brew install --cask docker-desktop
+
+
+# ==================== VS Code Extensions ====================
+code --install-extension esbenp.prettier-vscode
 code --install-extension ms-vscode.vscode-node-azure-pack
 code --install-extension ms-azure-devops.azure-pipelines
 code --install-extension VisualStudioOnlineApplicationInsights.application-insights
@@ -18,61 +35,54 @@ code --install-extension ms-dotnettools.csdevkit
 code --install-extension ritwickdey.LiveServer
 code --install-extension formulahendry.auto-rename-tag
 
-# brew install --cask cursor
 
-# brew install --cask microsoft-azure-storage-explorer
-# brew install --cask azure-data-studio
-# brew install azure-cli
-# brew install git-credential-manager
+# ==================== .NET & Cloud Tools ====================
+# Install Aspire
+# curl -sSL https://aspire.dev/install.sh | bash
+brew install --cask microsoft-azure-storage-explorer
+brew install --cask azure-data-studio
 
-# brew install --cask powershell
-# brew install node@24 (lts)
-# brew install angular-cli
-# brew install --cask drawio
-# brew install --cask google-chrome
-# brew install --cask microsoft-remote-desktop
-# brew install --cask microsoft-office
 
-# Terminal Tools
+# ==================== Terminal & Productivity ====================
+brew install --cask iterm2
+brew install jandedobbeleer/oh-my-posh/oh-my-posh
 brew install --cask font-meslo-lg-nerd-font
 
-# Business Tools
+
+# ==================== Design & Diagramming ====================
+brew install --cask drawio
+
+
+# ==================== Browsers & Office ====================
+brew install --cask google-chrome
+brew install --cask microsoft-remote-desktop
+brew install --cask microsoft-office
+
+
+# ==================== Communication Tools ====================
 # brew install --cask skype
 # brew install --cask slack
 # brew install --cask microsoft-teams
-
 # brew install --cask whatsapp
 # brew install --cask zoom
 
-brew install jandedobbeleer/oh-my-posh/oh-my-posh
-brew install --cask iterm2
 
-# brew install docker
-# brew install --cask docker-desktop
-
-## XCode For iOS Development ##################
-
-## Install Mas (command-line interface for Mac App Store)
+# ==================== Mobile Development ====================
+## XCode For iOS Development
 #brew install mas
-
-## Search for Xcode showing only the first 5 results
 #mas search xcode | head -5
-
-## Install Xcode using App ID
-#mas install 497799835 # The appid for Xcode shown when doing search
-
-## Reset the development directory path to put to Xcode /Applications/Xcode.app/Contents/Developer
-#sudo xcode-select -r  
-
+#mas install 497799835   # Xcode
+#sudo xcode-select -r
 #sudo xcodebuild -license
 
-## Update all Apple software and auto agree to any licenses and restart if necessary
-#sudo softwareupdate --install --agree-to-license -aR
+## Android & Flutter
+# brew install --cask android-studio
+# brew install --cask flutter
 
-## Adobe Creative Cloud
+
+# ==================== Creative Tools ====================
 brew install --cask adobe-creative-cloud
 
-# Android Studio
-# brew install --cask android-studio
 
-# brew install --cask flutter
+# ==================== Final Updates ====================
+# brew update && brew upgrade

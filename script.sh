@@ -25,7 +25,7 @@ code --install-extension formulahendry.auto-rename-tag
 # brew install git-credential-manager
 
 # brew install --cask powershell
-# brew install node
+# brew install node@24 (lts)
 # brew install angular-cli
 # brew install --cask drawio
 # brew install --cask google-chrome

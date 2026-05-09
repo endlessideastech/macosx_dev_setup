@@ -4,11 +4,10 @@
 
 # brew install --cask postman
 # brew install --cask dotnet-sdk
-# brew install --cask visual-studio
 
 # brew install --cask visual-studio-code
 # code --install-extension esbenp.prettier-vscode
-code --install-extension rbbit.typescript-hero
+
 code --install-extension ms-vscode.vscode-node-azure-pack
 code --install-extension ms-azure-devops.azure-pipelines
 code --install-extension VisualStudioOnlineApplicationInsights.application-insights
@@ -17,6 +16,8 @@ code --install-extension eamodio.gitlens
 code --install-extension ms-dotnettools.csharp
 code --install-extension ritwickdey.LiveServer
 code --install-extension formulahendry.auto-rename-tag
+
+# brew install --cask cursor
 
 # brew install --cask microsoft-azure-storage-explorer
 # brew install --cask azure-data-studio

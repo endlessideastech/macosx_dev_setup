@@ -15,7 +15,7 @@ brew install --cask visual-studio-code
 brew install --cask dotnet-sdk
 brew install azure-cli
 brew install git-credential-manager
-brew install --cask powershell
+brew install powershell
 brew install node@24
 brew install angular-cli
 # brew install docker

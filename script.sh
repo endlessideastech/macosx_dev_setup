@@ -11,8 +11,7 @@ brew upgrade
 
 # ==================== Core Development Tools ====================
 brew install --cask visual-studio-code
-brew install --cask cursor
-brew install --cask postman
+# brew install --cask cursor
 brew install --cask dotnet-sdk
 brew install azure-cli
 brew install git-credential-manager
